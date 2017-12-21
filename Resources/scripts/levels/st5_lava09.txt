@@ -1,0 +1,2106 @@
+<<
+@warzone
+{
+	#string name "warzone";
+	#point pos 0.00, 0.00;
+	#point size 1280.00, 720.00;
+	#string music_name "gameplay_theme5";
+	#string ambient_name "lava_ambient";
+	#string background_texture "lava09";
+	#int max_upgrade_level 5;
+	#float bonus_attack 2.00;
+	#float bonus_defence 2.00;
+	#float bonus_speed 2.00;
+	#int needed_clients 0;
+	#float trophy_time_normal 0.00;
+	#float trophy_time_hard 0.00;
+	#float trophy_time_expert 0.00;
+	#float trophy_time 359000.00;
+	@player
+	{
+		#float population_growth 1.00;
+		#float tower_speed 1.00;
+		#float army_speed 1.00;
+		#float army_attack 1.00;
+		#float army_defence 1.00;
+		#float tower_range 1.00;
+	}
+	@player
+	{
+		#float population_growth 1.00;
+		#float tower_speed 1.00;
+		#float army_speed 1.00;
+		#float army_attack 1.00;
+		#float army_defence 1.00;
+		#float tower_range 1.00;
+		#int ai_attack_delay 10;
+		#int ai_max_armies_per_attack 3;
+		#float ai_upgrade_treshold 0.70;
+		#float ai_panic_attack_treshold 0.90;
+	}
+	@player
+	{
+		#float population_growth 1.00;
+		#float tower_speed 1.00;
+		#float army_speed 1.00;
+		#float army_attack 1.00;
+		#float army_defence 1.00;
+		#float tower_range 1.00;
+		#int ai_attack_delay 10;
+		#int ai_max_armies_per_attack 3;
+		#float ai_upgrade_treshold 0.70;
+		#float ai_panic_attack_treshold 0.90;
+	}
+	@player
+	{
+		#float population_growth 1.00;
+		#float tower_speed 1.00;
+		#float army_speed 1.00;
+		#float army_attack 1.00;
+		#float army_defence 1.00;
+		#float tower_range 1.00;
+		#int ai_attack_delay 10;
+		#int ai_max_armies_per_attack 3;
+		#float ai_upgrade_treshold 0.70;
+		#float ai_panic_attack_treshold 0.90;
+	}
+	@spell_list
+	{
+		#string spell "condom";
+		#string spell "fireball";
+		#string spell "turncoat";
+		#string spell "indoctrinate";
+	}
+	@city
+	{
+		#string name "city_p0_s4_l1";
+		#point pos -262.00, -189.00;
+		#int start_population 20;
+		#int level 2;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#bool fortification true;
+		#int count_node_number 0;
+	}
+	@city
+	{
+		#string name "tower_p0_s4_l1";
+		#point pos -38.00, 224.00;
+		#int start_population 20;
+		#int level 4;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 2;
+		#bool tower true;
+		#int count_node_number 1;
+	}
+	@city
+	{
+		#string name "castle_p0_s4_l1";
+		#point pos -321.00, -282.00;
+		#int start_population 20;
+		#int level 2;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#bool fast_armies true;
+		#int count_node_number 2;
+	}
+	@city
+	{
+		#string name "castle_p0_s4_l1";
+		#point pos -354.00, 272.00;
+		#int start_population 20;
+		#int level 2;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#bool fast_armies true;
+		#int count_node_number 3;
+	}
+	@city
+	{
+		#string name "city_p0_s4_l1";
+		#point pos 402.00, -37.00;
+		#int start_population 20;
+		#int level 2;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#bool fortification true;
+		#int count_node_number 9;
+	}
+	@city
+	{
+		#string name "city_p0_s4_l1";
+		#point pos -153.00, -277.00;
+		#int start_population 40;
+		#int level 4;
+		#int owner 2;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#bool fast_armies true;
+		#int count_node_number 10;
+	}
+	@city
+	{
+		#string name "city_p0_s4_l1";
+		#point pos -85.00, 33.00;
+		#int start_population 10;
+		#int level 1;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#int count_node_number 11;
+	}
+	@city
+	{
+		#string name "castle_p0_s4_l1";
+		#point pos 125.00, -233.00;
+		#int start_population 20;
+		#int level 2;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#bool fortification true;
+		#int count_node_number 19;
+	}
+	@city
+	{
+		#string name "city_p0_s4_l1";
+		#point pos 183.00, 300.00;
+		#int start_population 10;
+		#int level 1;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#int count_node_number 27;
+	}
+	@city
+	{
+		#string name "city_p0_s4_l1";
+		#point pos 241.00, 232.00;
+		#int start_population 20;
+		#int level 2;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#bool fortification true;
+		#int count_node_number 28;
+	}
+	@city
+	{
+		#string name "city_p0_s4_l1";
+		#point pos 365.00, 149.00;
+		#int start_population 20;
+		#int level 2;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#int count_node_number 29;
+	}
+	@city
+	{
+		#string name "city_p0_s4_l1";
+		#point pos 381.00, 252.00;
+		#int start_population 30;
+		#int level 3;
+		#int owner 1;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#int count_node_number 30;
+	}
+	@city
+	{
+		#string name "castle_p0_s4_l1";
+		#point pos -240.00, 216.00;
+		#int start_population 20;
+		#int level 2;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#bool fortification true;
+		#int count_node_number 31;
+	}
+	@city
+	{
+		#string name "city_p0_s4_l1";
+		#point pos -398.00, 160.00;
+		#int start_population 40;
+		#int level 4;
+		#int owner 3;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#int count_node_number 32;
+	}
+	@city
+	{
+		#string name "city_p0_s4_l1";
+		#point pos -206.00, -1.00;
+		#int start_population 20;
+		#int level 2;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#bool tower true;
+		#int count_node_number 33;
+	}
+	@city
+	{
+		#string name "city_p0_s4_l1";
+		#point pos -412.00, -102.00;
+		#int start_population 20;
+		#int level 2;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#int count_node_number 34;
+	}
+	@city
+	{
+		#string name "city_p0_s4_l1";
+		#point pos -415.00, -266.00;
+		#int start_population 20;
+		#int level 2;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#int count_node_number 35;
+	}
+	@city
+	{
+		#string name "forge_p0_s4_l1";
+		#point pos -3.00, -302.00;
+		#int start_population 10;
+		#int level 1;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#bool strong_armies true;
+		#int count_node_number 45;
+	}
+	@city
+	{
+		#string name "city_p0_s4_l1";
+		#point pos 48.00, 12.00;
+		#int start_population 20;
+		#int level 2;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#int count_node_number 49;
+	}
+	@city
+	{
+		#string name "tower_p0_s4_l1";
+		#point pos 179.00, 5.00;
+		#int start_population 10;
+		#int level 1;
+		#int owner 4;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#bool tower true;
+		#int count_node_number 53;
+	}
+	@city
+	{
+		#string name "city_p0_s4_l1";
+		#point pos 278.00, -308.00;
+		#int start_population 10;
+		#int level 1;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#bool fast_armies true;
+		#int count_node_number 54;
+	}
+	@city
+	{
+		#string name "city_p0_s4_l1";
+		#point pos 255.00, -45.00;
+		#int start_population 40;
+		#int level 4;
+		#int owner 4;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#int count_node_number 59;
+	}
+	@city
+	{
+		#string name "stable_p0_s4_l1";
+		#point pos 301.00, -121.00;
+		#int start_population 10;
+		#int level 1;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#bool fast_armies true;
+		#int count_node_number 61;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos -600.00, 134.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 65.00, -92.00;
+		#point p1 128.00, 128.00;
+		#point p2 101.00, -127.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 0.50, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos -560.00, 238.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 -1.00, -73.00;
+		#point p1 128.00, 128.00;
+		#point p2 30.00, -128.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 0.50, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos -613.00, -166.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 -29.00, 15.00;
+		#point p1 128.00, 128.00;
+		#point p2 87.00, -223.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed -0.50, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos -119.00, 256.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 -128.00, 128.00;
+		#point p1 128.00, 128.00;
+		#point p2 7.00, 24.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 0.50, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos -59.00, 186.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 -128.00, 102.00;
+		#point p1 128.00, 128.00;
+		#point p2 -12.00, -16.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 0.50, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos 438.00, 88.00;
+		#float y_point -195.00;
+		#string texture "lava";
+		#point p0 75.00, -81.00;
+		#point p1 128.00, 128.00;
+		#point p2 126.00, -137.00;
+		#point p3 168.00, -130.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed -0.50, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos 510.00, -90.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 87.00, 81.00;
+		#point p1 128.00, 128.00;
+		#point p2 129.00, -99.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed -0.50, 3.00;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos 521.00, 155.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 66.00, 74.00;
+		#point p1 128.00, 128.00;
+		#point p2 121.00, -114.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed -0.50, 3.00;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos 379.00, 205.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 2.00, 35.00;
+		#point p1 128.00, 128.00;
+		#point p2 165.00, -161.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed -0.50, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos 444.00, 155.00;
+		#float y_point -232.00;
+		#string texture "lava";
+		#point p0 47.00, -70.00;
+		#point p1 128.00, 128.00;
+		#point p2 155.00, -136.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed -1.50, -0.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos 516.00, -156.00;
+		#float y_point -64.00;
+		#string texture "lava";
+		#point p0 69.00, 2.00;
+		#point p1 128.00, 128.00;
+		#point p2 124.00, -89.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed -2.00, 0.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos -691.00, 119.00;
+		#float y_point 27.00;
+		#string texture "lava";
+		#point p0 90.00, 13.00;
+		#point p1 128.00, 128.00;
+		#point p2 186.00, -196.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 1.00, 3.00;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos -565.00, 61.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 52.00, -55.00;
+		#point p1 128.00, -55.00;
+		#point p2 127.00, -114.00;
+		#point p3 52.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 2.00, 1.00;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos -574.00, 93.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 46.00, -64.00;
+		#point p1 128.00, 128.00;
+		#point p2 85.00, -106.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 1.00, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos -561.00, 184.00;
+		#float y_point -85.00;
+		#string texture "lava";
+		#point p0 10.00, -74.00;
+		#point p1 128.00, 128.00;
+		#point p2 65.00, -155.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 0.00, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos -508.00, -70.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 -27.00, 23.00;
+		#point p1 128.00, 128.00;
+		#point p2 133.00, -93.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 2.00, 1.00;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos 513.00, -257.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 45.00, -39.00;
+		#point p1 128.00, 128.00;
+		#point p2 128.00, -128.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 1.00, 0.00;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos 485.00, -210.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 -55.00, 43.00;
+		#point p1 128.00, 128.00;
+		#point p2 107.00, -174.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 0.50, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos 477.00, -83.00;
+		#float y_point 14.00;
+		#string texture "lava";
+		#point p0 -97.00, 128.00;
+		#point p1 128.00, 128.00;
+		#point p2 101.00, -88.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 0.50, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos 394.00, 320.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 35.00, 61.00;
+		#point p1 128.00, 128.00;
+		#point p2 125.00, -85.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 0.50, 3.00;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos 116.00, -256.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 32.00, 7.00;
+		#point p1 128.00, 128.00;
+		#point p2 176.00, -129.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed -1.00, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos -31.00, -256.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 43.00, -18.00;
+		#point p1 128.00, 128.00;
+		#point p2 179.00, -128.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 1.00, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos -213.00, -14.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 -55.00, -12.00;
+		#point p1 128.00, 128.00;
+		#point p2 98.00, -205.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed -0.50, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos -68.00, -72.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 -106.00, 127.00;
+		#point p1 128.00, 128.00;
+		#point p2 -37.00, 42.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 1.00, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos -203.00, 23.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 -64.00, 103.00;
+		#point p1 128.00, 128.00;
+		#point p2 45.00, -20.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed -0.50, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos -304.00, -206.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 40.00, -34.00;
+		#point p1 128.00, 128.00;
+		#point p2 127.00, -178.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 0.00, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos -1.00, -255.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 -116.00, -4.00;
+		#point p1 128.00, 128.00;
+		#point p2 -27.00, -130.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 0.00, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos -86.00, 324.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 24.00, -41.00;
+		#point p1 128.00, 128.00;
+		#point p2 84.00, -79.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 1.50, 1.00;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos -15.00, 221.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 39.00, -1.00;
+		#point p1 128.00, 128.00;
+		#point p2 120.00, -149.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 0.50, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos 54.00, 15.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 -2.00, 59.00;
+		#point p1 128.00, 128.00;
+		#point p2 128.00, -128.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 0.50, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos 62.00, -25.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 -133.00, 195.00;
+		#point p1 128.00, 128.00;
+		#point p2 -61.00, -135.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 0.00, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos 201.00, 68.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 -23.00, -13.00;
+		#point p1 128.00, 128.00;
+		#point p2 201.00, -257.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 0.50, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos 218.00, -104.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 16.00, -51.00;
+		#point p1 128.00, 128.00;
+		#point p2 62.00, -116.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 0.00, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos 42.00, -88.00;
+		#float y_point 0.00;
+		#string texture "lava";
+		#point p0 4.00, 12.00;
+		#point p1 128.00, 128.00;
+		#point p2 128.00, -128.00;
+		#point p3 -128.00, -128.00;
+		#int layer -1;
+		#bool sliding true;
+		#point slide_speed 0.50, 1.50;
+	}
+	@obstacle
+	{
+		#string name "obstacle";
+		#point pos 0.00, -128.00;
+		#float y_point 0.00;
+		#string texture "lava09u";
+		#point p0 -512.00, 512.00;
+		#point p1 512.00, 512.00;
+		#point p2 512.00, -512.00;
+		#point p3 -512.00, -512.00;
+		#int layer 1;
+		#bool sliding false;
+		#point slide_speed 0.00, 0.00;
+	}
+	@path_count_node
+	{
+		#int number 0;
+		#float radius 20.00;
+		#point point -262.00, -189.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 93;
+		#int edge 94;
+	}
+	@path_count_node
+	{
+		#int number 1;
+		#float radius 18.00;
+		#point point -38.00, 224.00;
+		#int layer 2;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 101;
+	}
+	@path_count_node
+	{
+		#int number 2;
+		#float radius 20.00;
+		#point point -321.00, -282.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 92;
+	}
+	@path_count_node
+	{
+		#int number 3;
+		#float radius 20.00;
+		#point point -354.00, 272.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 47;
+	}
+	@path_count_node
+	{
+		#int number 4;
+		#float radius 10.00;
+		#point point -60.00, 125.00;
+		#int layer 0;
+		#bool sanctuary true;
+		#bool invisible false;
+		#int edge 36;
+		#int edge 69;
+	}
+	@path_count_node
+	{
+		#int number 5;
+		#float radius 10.00;
+		#point point 13.00, -195.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 8;
+		#int edge 6;
+		#int edge 39;
+		#int edge 71;
+	}
+	@path_count_node
+	{
+		#int number 6;
+		#float radius 10.00;
+		#point point 31.00, -227.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 5;
+		#int edge 8;
+		#int edge 71;
+		#int edge 74;
+	}
+	@path_count_node
+	{
+		#int number 7;
+		#float radius 10.00;
+		#point point -119.00, -226.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 18;
+		#int edge 66;
+		#int edge 72;
+	}
+	@path_count_node
+	{
+		#int number 8;
+		#float radius 10.00;
+		#point point -11.00, -223.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 5;
+		#int edge 6;
+		#int edge 71;
+		#int edge 73;
+	}
+	@path_count_node
+	{
+		#int number 9;
+		#float radius 20.00;
+		#point point 402.00, -37.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 26;
+		#int edge 111;
+	}
+	@path_count_node
+	{
+		#int number 10;
+		#float radius 20.00;
+		#point point -153.00, -277.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 66;
+	}
+	@path_count_node
+	{
+		#int number 11;
+		#float radius 20.00;
+		#point point -85.00, 33.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 50;
+		#int edge 100;
+	}
+	@path_count_node
+	{
+		#int number 12;
+		#float radius 10.00;
+		#point point 65.00, 271.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 17;
+		#int edge 105;
+	}
+	@path_count_node
+	{
+		#int number 13;
+		#float radius 10.00;
+		#point point -20.00, 328.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 15;
+		#int edge 17;
+	}
+	@path_count_node
+	{
+		#int number 14;
+		#float radius 10.00;
+		#point point -103.00, 314.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 16;
+		#int edge 15;
+	}
+	@path_count_node
+	{
+		#int number 15;
+		#float radius 10.00;
+		#point point -63.00, 327.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 14;
+		#int edge 13;
+	}
+	@path_count_node
+	{
+		#int number 16;
+		#float radius 10.00;
+		#point point -154.00, 273.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 14;
+		#int edge 31;
+	}
+	@path_count_node
+	{
+		#int number 17;
+		#float radius 10.00;
+		#point point 22.00, 306.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 13;
+		#int edge 12;
+	}
+	@path_count_node
+	{
+		#int number 18;
+		#float radius 10.00;
+		#point point -160.00, -218.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 7;
+		#int edge 66;
+		#int edge 94;
+	}
+	@path_count_node
+	{
+		#int number 19;
+		#float radius 20.00;
+		#point point 125.00, -233.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 74;
+		#int edge 85;
+	}
+	@path_count_node
+	{
+		#int number 20;
+		#float radius 10.00;
+		#point point 119.00, 201.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 21;
+		#int edge 22;
+		#int edge 105;
+	}
+	@path_count_node
+	{
+		#int number 21;
+		#float radius 10.00;
+		#point point 149.00, 202.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 22;
+		#int edge 20;
+		#int edge 109;
+	}
+	@path_count_node
+	{
+		#int number 22;
+		#float radius 10.00;
+		#point point 145.00, 170.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 21;
+		#int edge 20;
+		#int edge 104;
+	}
+	@path_count_node
+	{
+		#int number 23;
+		#float radius 10.00;
+		#point point 226.00, 119.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 24;
+		#int edge 104;
+	}
+	@path_count_node
+	{
+		#int number 24;
+		#float radius 10.00;
+		#point point 271.00, 88.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 25;
+		#int edge 23;
+	}
+	@path_count_node
+	{
+		#int number 25;
+		#float radius 10.00;
+		#point point 318.00, 39.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 26;
+		#int edge 24;
+	}
+	@path_count_node
+	{
+		#int number 26;
+		#float radius 10.00;
+		#point point 361.00, 4.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 9;
+		#int edge 25;
+	}
+	@path_count_node
+	{
+		#int number 27;
+		#float radius 20.00;
+		#point point 183.00, 300.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 103;
+	}
+	@path_count_node
+	{
+		#int number 28;
+		#float radius 20.00;
+		#point point 241.00, 232.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 103;
+		#int edge 108;
+		#int edge 109;
+	}
+	@path_count_node
+	{
+		#int number 29;
+		#float radius 20.00;
+		#point point 365.00, 149.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 63;
+	}
+	@path_count_node
+	{
+		#int number 30;
+		#float radius 20.00;
+		#point point 381.00, 252.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 63;
+	}
+	@path_count_node
+	{
+		#int number 31;
+		#float radius 20.00;
+		#point point -240.00, 216.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 16;
+		#int edge 46;
+		#int edge 67;
+	}
+	@path_count_node
+	{
+		#int number 32;
+		#float radius 20.00;
+		#point point -398.00, 160.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 48;
+		#int edge 96;
+	}
+	@path_count_node
+	{
+		#int number 33;
+		#float radius 20.00;
+		#point point -206.00, -1.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 42;
+	}
+	@path_count_node
+	{
+		#int number 34;
+		#float radius 20.00;
+		#point point -412.00, -102.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 88;
+	}
+	@path_count_node
+	{
+		#int number 35;
+		#float radius 20.00;
+		#point point -415.00, -266.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 86;
+	}
+	@path_count_node
+	{
+		#int number 36;
+		#float radius 10.00;
+		#point point 0.00, 98.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 37;
+		#int edge 4;
+	}
+	@path_count_node
+	{
+		#int number 37;
+		#float radius 10.00;
+		#point point 29.00, 65.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 36;
+		#int edge 49;
+	}
+	@path_count_node
+	{
+		#int number 38;
+		#float radius 10.00;
+		#point point 37.00, -88.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 39;
+		#int edge 70;
+	}
+	@path_count_node
+	{
+		#int number 39;
+		#float radius 10.00;
+		#point point 24.00, -142.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 5;
+		#int edge 38;
+	}
+	@path_count_node
+	{
+		#int number 40;
+		#float radius 10.00;
+		#point point -365.00, -235.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 87;
+		#int edge 92;
+		#int edge 86;
+	}
+	@path_count_node
+	{
+		#int number 41;
+		#float radius 10.00;
+		#point point -302.00, -42.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 42;
+		#int edge 43;
+		#int edge 95;
+	}
+	@path_count_node
+	{
+		#int number 42;
+		#float radius 10.00;
+		#point point -286.00, -19.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 41;
+		#int edge 33;
+		#int edge 43;
+	}
+	@path_count_node
+	{
+		#int number 43;
+		#float radius 10.00;
+		#point point -316.00, 1.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 41;
+		#int edge 42;
+		#int edge 99;
+	}
+	@path_count_node
+	{
+		#int number 44;
+		#float radius 10.00;
+		#point point -421.00, 93.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 96;
+		#int edge 97;
+	}
+	@path_count_node
+	{
+		#int number 45;
+		#float radius 20.00;
+		#point point -3.00, -302.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 71;
+	}
+	@path_count_node
+	{
+		#int number 46;
+		#float radius 10.00;
+		#point point -300.00, 220.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 48;
+		#int edge 47;
+		#int edge 31;
+	}
+	@path_count_node
+	{
+		#int number 47;
+		#float radius 10.00;
+		#point point -329.00, 225.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 46;
+		#int edge 3;
+		#int edge 48;
+	}
+	@path_count_node
+	{
+		#int number 48;
+		#float radius 10.00;
+		#point point -344.00, 196.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 32;
+		#int edge 46;
+		#int edge 47;
+	}
+	@path_count_node
+	{
+		#int number 49;
+		#float radius 20.00;
+		#point point 48.00, 12.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 37;
+		#int edge 70;
+	}
+	@path_count_node
+	{
+		#int number 50;
+		#float radius 10.00;
+		#point point -81.00, -35.00;
+		#int layer 2;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 51;
+		#int edge 11;
+	}
+	@path_count_node
+	{
+		#int number 51;
+		#float radius 10.00;
+		#point point -74.00, -93.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 50;
+		#int edge 65;
+	}
+	@path_count_node
+	{
+		#int number 52;
+		#float radius 10.00;
+		#point point -59.00, -189.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 65;
+		#int edge 72;
+		#int edge 73;
+	}
+	@path_count_node
+	{
+		#int number 53;
+		#float radius 20.00;
+		#point point 179.00, 5.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 106;
+	}
+	@path_count_node
+	{
+		#int number 54;
+		#float radius 20.00;
+		#point point 278.00, -308.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 82;
+	}
+	@path_count_node
+	{
+		#int number 55;
+		#float radius 10.00;
+		#point point 430.00, -93.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 83;
+		#int edge 111;
+	}
+	@path_count_node
+	{
+		#int number 56;
+		#float radius 10.00;
+		#point point 188.00, -232.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 75;
+		#int edge 76;
+		#int edge 85;
+	}
+	@path_count_node
+	{
+		#int number 57;
+		#float radius 10.00;
+		#point point 400.00, -197.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 62;
+		#int edge 79;
+		#int edge 80;
+	}
+	@path_count_node
+	{
+		#int number 58;
+		#float radius 10.00;
+		#point point 205.00, -117.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 84;
+		#int edge 107;
+		#int edge 110;
+	}
+	@path_count_node
+	{
+		#int number 59;
+		#float radius 19.00;
+		#point point 255.00, -45.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 64;
+	}
+	@path_count_node
+	{
+		#int number 60;
+		#float radius 10.00;
+		#point point 354.00, -285.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 81;
+		#int edge 82;
+	}
+	@path_count_node
+	{
+		#int number 61;
+		#float radius 20.00;
+		#point point 301.00, -121.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 64;
+	}
+	@path_count_node
+	{
+		#int number 62;
+		#float radius 10.00;
+		#point point 371.00, -208.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 57;
+		#int edge 78;
+		#int edge 80;
+	}
+	@path_count_node
+	{
+		#int number 63;
+		#float radius 10.00;
+		#point point 349.00, 205.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 30;
+		#int edge 29;
+		#int edge 108;
+	}
+	@path_count_node
+	{
+		#int number 64;
+		#float radius 10.00;
+		#point point 258.00, -91.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 59;
+		#int edge 107;
+		#int edge 61;
+	}
+	@path_count_node
+	{
+		#int number 65;
+		#float radius 10.00;
+		#point point -68.00, -136.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 52;
+		#int edge 51;
+	}
+	@path_count_node
+	{
+		#int number 66;
+		#float radius 10.00;
+		#point point -145.00, -243.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 10;
+		#int edge 18;
+		#int edge 7;
+	}
+	@path_count_node
+	{
+		#int number 67;
+		#float radius 10.00;
+		#point point -202.00, 187.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 31;
+		#int edge 68;
+	}
+	@path_count_node
+	{
+		#int number 68;
+		#float radius 10.00;
+		#point point -177.00, 172.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 67;
+		#int edge 69;
+	}
+	@path_count_node
+	{
+		#int number 69;
+		#float radius 10.00;
+		#point point -128.00, 145.00;
+		#int layer 0;
+		#bool sanctuary true;
+		#bool invisible false;
+		#int edge 68;
+		#int edge 4;
+	}
+	@path_count_node
+	{
+		#int number 70;
+		#float radius 10.00;
+		#point point 46.00, -44.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 38;
+		#int edge 49;
+	}
+	@path_count_node
+	{
+		#int number 71;
+		#float radius 10.00;
+		#point point 4.00, -252.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 5;
+		#int edge 45;
+		#int edge 6;
+		#int edge 8;
+	}
+	@path_count_node
+	{
+		#int number 72;
+		#float radius 10.00;
+		#point point -71.00, -222.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 7;
+		#int edge 73;
+		#int edge 52;
+	}
+	@path_count_node
+	{
+		#int number 73;
+		#float radius 10.00;
+		#point point -42.00, -221.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 8;
+		#int edge 72;
+		#int edge 52;
+	}
+	@path_count_node
+	{
+		#int number 74;
+		#float radius 10.00;
+		#point point 74.00, -233.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 6;
+		#int edge 19;
+	}
+	@path_count_node
+	{
+		#int number 75;
+		#float radius 10.00;
+		#point point 205.00, -204.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 56;
+		#int edge 76;
+		#int edge 110;
+	}
+	@path_count_node
+	{
+		#int number 76;
+		#float radius 10.00;
+		#point point 228.00, -230.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 56;
+		#int edge 77;
+		#int edge 75;
+	}
+	@path_count_node
+	{
+		#int number 77;
+		#float radius 10.00;
+		#point point 267.00, -227.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 76;
+		#int edge 78;
+	}
+	@path_count_node
+	{
+		#int number 78;
+		#float radius 10.00;
+		#point point 315.00, -218.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 62;
+		#int edge 77;
+	}
+	@path_count_node
+	{
+		#int number 79;
+		#float radius 10.00;
+		#point point 413.00, -174.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 57;
+		#int edge 83;
+	}
+	@path_count_node
+	{
+		#int number 80;
+		#float radius 10.00;
+		#point point 392.00, -224.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 81;
+		#int edge 62;
+		#int edge 57;
+	}
+	@path_count_node
+	{
+		#int number 81;
+		#float radius 10.00;
+		#point point 377.00, -260.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 60;
+		#int edge 80;
+	}
+	@path_count_node
+	{
+		#int number 82;
+		#float radius 10.00;
+		#point point 322.00, -301.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 54;
+		#int edge 60;
+	}
+	@path_count_node
+	{
+		#int number 83;
+		#float radius 10.00;
+		#point point 428.00, -137.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 55;
+		#int edge 79;
+	}
+	@path_count_node
+	{
+		#int number 84;
+		#float radius 10.00;
+		#point point 198.00, -89.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 58;
+		#int edge 106;
+		#int edge 107;
+	}
+	@path_count_node
+	{
+		#int number 85;
+		#float radius 10.00;
+		#point point 166.00, -235.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 19;
+		#int edge 56;
+	}
+	@path_count_node
+	{
+		#int number 86;
+		#float radius 10.00;
+		#point point -399.00, -228.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 87;
+		#int edge 35;
+		#int edge 40;
+	}
+	@path_count_node
+	{
+		#int number 87;
+		#float radius 10.00;
+		#point point -388.00, -202.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 40;
+		#int edge 91;
+		#int edge 86;
+	}
+	@path_count_node
+	{
+		#int number 88;
+		#float radius 10.00;
+		#point point -387.00, -128.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 34;
+		#int edge 89;
+		#int edge 112;
+	}
+	@path_count_node
+	{
+		#int number 89;
+		#float radius 10.00;
+		#point point -364.00, -130.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 88;
+		#int edge 95;
+		#int edge 112;
+	}
+	@path_count_node
+	{
+		#int number 90;
+		#float radius 10.00;
+		#point point -358.00, -171.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 91;
+		#int edge 93;
+		#int edge 112;
+	}
+	@path_count_node
+	{
+		#int number 91;
+		#float radius 10.00;
+		#point point -381.00, -180.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 87;
+		#int edge 90;
+		#int edge 112;
+	}
+	@path_count_node
+	{
+		#int number 92;
+		#float radius 10.00;
+		#point point -339.00, -258.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 2;
+		#int edge 40;
+	}
+	@path_count_node
+	{
+		#int number 93;
+		#float radius 10.00;
+		#point point -313.00, -181.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 0;
+		#int edge 90;
+	}
+	@path_count_node
+	{
+		#int number 94;
+		#float radius 10.00;
+		#point point -208.00, -204.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 0;
+		#int edge 18;
+	}
+	@path_count_node
+	{
+		#int number 95;
+		#float radius 10.00;
+		#point point -330.00, -88.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 41;
+		#int edge 89;
+	}
+	@path_count_node
+	{
+		#int number 96;
+		#float radius 10.00;
+		#point point -413.00, 126.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 32;
+		#int edge 44;
+	}
+	@path_count_node
+	{
+		#int number 97;
+		#float radius 10.00;
+		#point point -411.00, 59.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 44;
+		#int edge 98;
+	}
+	@path_count_node
+	{
+		#int number 98;
+		#float radius 10.00;
+		#point point -378.00, 38.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 97;
+		#int edge 99;
+	}
+	@path_count_node
+	{
+		#int number 99;
+		#float radius 10.00;
+		#point point -339.00, 24.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 43;
+		#int edge 98;
+	}
+	@path_count_node
+	{
+		#int number 100;
+		#float radius 10.00;
+		#point point -88.00, 96.00;
+		#int layer 2;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 11;
+		#int edge 102;
+	}
+	@path_count_node
+	{
+		#int number 101;
+		#float radius 10.00;
+		#point point -60.00, 188.00;
+		#int layer 2;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 1;
+		#int edge 102;
+	}
+	@path_count_node
+	{
+		#int number 102;
+		#float radius 10.00;
+		#point point -76.00, 150.00;
+		#int layer 2;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 100;
+		#int edge 101;
+	}
+	@path_count_node
+	{
+		#int number 103;
+		#float radius 10.00;
+		#point point 208.00, 264.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 27;
+		#int edge 28;
+	}
+	@path_count_node
+	{
+		#int number 104;
+		#float radius 10.00;
+		#point point 178.00, 148.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 22;
+		#int edge 23;
+	}
+	@path_count_node
+	{
+		#int number 105;
+		#float radius 10.00;
+		#point point 94.00, 237.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 12;
+		#int edge 20;
+	}
+	@path_count_node
+	{
+		#int number 106;
+		#float radius 10.00;
+		#point point 191.00, -48.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 53;
+		#int edge 84;
+	}
+	@path_count_node
+	{
+		#int number 107;
+		#float radius 10.00;
+		#point point 229.00, -104.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 58;
+		#int edge 64;
+		#int edge 84;
+	}
+	@path_count_node
+	{
+		#int number 108;
+		#float radius 10.00;
+		#point point 298.00, 218.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 28;
+		#int edge 63;
+	}
+	@path_count_node
+	{
+		#int number 109;
+		#float radius 10.00;
+		#point point 183.00, 223.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 21;
+		#int edge 28;
+	}
+	@path_count_node
+	{
+		#int number 110;
+		#float radius 10.00;
+		#point point 199.00, -159.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 58;
+		#int edge 75;
+	}
+	@path_count_node
+	{
+		#int number 111;
+		#float radius 10.00;
+		#point point 423.00, -70.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 9;
+		#int edge 55;
+	}
+	@path_count_node
+	{
+		#int number 112;
+		#float radius 10.00;
+		#point point -374.00, -153.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 90;
+		#int edge 88;
+		#int edge 91;
+		#int edge 89;
+	}
+}
+>>
+

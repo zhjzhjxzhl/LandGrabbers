@@ -1,0 +1,7 @@
+数据库：http://hurrygames.l267.bizcn.com/myadmin/
+用户名：hurrygames
+密码：Zhaojun1986
+
+FTP服务器：222.76.214.207
+FTP用户名：hurrygames
+密码：Zhaojun1986

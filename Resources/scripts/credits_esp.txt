@@ -1,0 +1,65 @@
+<<
+
+@esp
+{
+	_Director del proyecto
+	Sergey Smirnov
+	_Disenadores del juego
+	Sergey Smirnov
+	Oleg Dolgikh
+	Sergey Seleznev
+	_Produccion
+	Vitaly Romanov
+	_Desarrollo
+	Sergey Simirnov
+	Oleg Dolgikh
+	_Diseno de niveles
+	Sergey Seleznev
+	_Productores graficos
+	Denis Markelov
+	Zlata Markelova
+	_Artistas y disenadores
+	_Positive Games
+	Alexander Boldin
+	Valery Nefedov
+	Alexander Yurgens
+	_Nevosoft
+	Ksenia Mamaeva
+	Yuri Voronov
+	Anastasia Borzykh
+	_Modelos y animacion
+	Positive Games
+	_Guion
+	Sergey Smirnov
+	Oleg Dolgikh
+	Sergey Seleznev
+	_Musica
+	The SandS
+	_Efectos de sonido
+	The SandS
+	Nick Oshurkov
+	Denis Antonov
+	_Consultor
+	Christopher Hamilton
+	_Pruebas
+	Sergey Seleznev
+	Vitaly Romanov
+	Alexandra Ryabchikova
+	Alexey Serebrov
+	Pavel Raikkonen
+	Andrey Litvinov
+	Mikhail Gurenkov
+	Sergey Korshun
+	Christopher Hamilton
+	_Apoyo creativo
+	Vitaly Romanov
+	Alexey Serebrov
+	Pavel Raikkonen
+	Mikhail Gurenkov
+	Sergey Korshun
+	Christopher Hamilton
+	_No se danaron vegetales en la produccion de este juego.
+	(зу) NevoSoft, 2008
+}
+
+>>

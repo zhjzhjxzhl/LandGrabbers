@@ -1,0 +1,19 @@
+{
+	"code":1,
+	"data":{
+		"bigAreaStep":4,
+		"smallAreaStep":8,
+		"steps":[
+					{
+						"bigIndex":0,
+						"smallIndex":0,
+						"normalTime":100000,
+						"hardTime":0,
+						"veryHardTime":0,
+						"normalStarts":3,
+						"hardStarts":-1,
+						"veryHardStarts":-1
+					}
+				]
+	}
+}

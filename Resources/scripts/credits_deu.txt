@@ -1,0 +1,81 @@
+<<
+
+@deu
+{
+	^	
+
+	_Projektleitung
+	Sergey Smirnov
+
+	_Spieldesign
+	Sergey Smirnov
+	Oleg Dolgikh
+	Vitaliy Moskalyuk
+
+	_Producer
+	Alexey Serebrov
+	Vitaliy Romanov
+
+	_Programmierer
+	Oleg Dolgikh 
+	Sergey Smirnov
+
+	_Leveldesign
+	Vitaliy Moskalyuk
+	Oleg Dolgikh
+	Sergey Smirnov
+
+	_Kunstlerische Leitung
+	Yaroslav Abramov
+
+	_Grafiker
+	Ksenia Mamaeva
+	Ekaterina Okhotnikova
+	Alexey Zhizhitsa
+	Natalya Filinova
+	Yuri Voronov
+
+	_3D Animation
+	Alexander Bessarabov
+	Alexander Koval
+	Yaroslav Abramov
+
+	_Musik und Soundeffekte
+	The SandS
+
+	_Sprecher
+	Tim Simmons
+
+	_Spieletester
+	Vitaliy Romanov
+	Alexey Serebrov
+	Sergey Korshun
+	Andrey Litvinov
+	Christopher Hamilton
+	Tim Simmons
+
+	_Deutsche Ubersetzung
+	Andrea Benda
+
+	_Besonderen Dank an
+	Sergey Korshun
+	Anastasia Limanskaya
+	Vitaliy Romanov
+	Alexey Serebrov
+	Andrey Litvinov
+	Lia Zaripova
+
+
+	_
+	_
+	+
+	
+	^
+	_
+	_
+	_		
+
+	_ Copyright c 2011 NevoSoft. All rights reserved.
+}
+
+>>

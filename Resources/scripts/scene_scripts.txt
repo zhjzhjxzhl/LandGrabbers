@@ -1,0 +1,26 @@
+<<
+@scene
+{
+	[hosts/soundhost]
+	[hosts/texturehost]
+	[hosts/texthost]
+	[hosts/animationhost]
+	[hosts/imagehost]
+	[hosts/controlhost]
+	[hosts/particlehost]
+
+	[interfaces/introinterface]
+	[interfaces/loaderinterface]
+	[interfaces/mapinterface]
+	[interfaces/debugmapinterface]
+	[interfaces/briefinginterface]
+	[interfaces/trophyinterface]
+	[interfaces/creditsinterface]
+	[interfaces/comicsinterface]
+	[interfaces/menuinterface]
+	[interfaces/warinterface]
+	[interfaces/wareditorinterface]
+}
+
+>>
+

@@ -1,0 +1,316 @@
+<<
+@warzone
+{
+	#string name "warzone";
+	#point pos 0.00, 0.00;
+	#point size 1280.00, 768.00;
+	#string music_name "";
+	#string ambient_name "";
+	#string background_texture "empty";
+	#int max_upgrade_level 5;
+	#float bonus_attack 2.00;
+	#float bonus_defence 2.00;
+	#float bonus_speed 2.00;
+	#int needed_clients 0;
+	#float trophy_time_normal 0.00;
+	#float trophy_time_hard 0.00;
+	#float trophy_time_expert 0.00;
+	@player
+	{
+		#float population_growth 1.00;
+		#float tower_speed 1.00;
+		#float army_speed 1.00;
+		#float army_attack 1.00;
+		#float army_defence 1.00;
+		#float tower_range 1.00;
+	}
+	@player
+	{
+		#float population_growth 1.00;
+		#float tower_speed 1.00;
+		#float army_speed 1.00;
+		#float army_attack 1.00;
+		#float army_defence 1.00;
+		#float tower_range 1.00;
+		#int ai_attack_delay 10;
+		#int ai_max_armies_per_attack -1;
+		#float ai_upgrade_treshold 0.70;
+		#float ai_panic_attack_treshold 0.90;
+	}
+	@player
+	{
+		#float population_growth 1.00;
+		#float tower_speed 1.00;
+		#float army_speed 1.00;
+		#float army_attack 1.00;
+		#float army_defence 1.00;
+		#float tower_range 1.00;
+		#int ai_attack_delay 10;
+		#int ai_max_armies_per_attack -1;
+		#float ai_upgrade_treshold 0.70;
+		#float ai_panic_attack_treshold 0.90;
+	}
+	@player
+	{
+		#float population_growth 1.00;
+		#float tower_speed 1.00;
+		#float army_speed 1.00;
+		#float army_attack 1.00;
+		#float army_defence 1.00;
+		#float tower_range 1.00;
+		#int ai_attack_delay 10;
+		#int ai_max_armies_per_attack -1;
+		#float ai_upgrade_treshold 0.70;
+		#float ai_panic_attack_treshold 0.90;
+	}
+	@spell_list
+	{
+	}
+	@city
+	{
+		#string name "anal66";
+		#point pos -358.00, 253.00;
+		#int start_population 10;
+		#int level 1;
+		#int owner 1;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#bool fast_armies true;
+		#int count_node_number 0;
+	}
+	@city
+	{
+		#string name "anal11";
+		#point pos 379.00, 252.00;
+		#int start_population 10;
+		#int level 1;
+		#int owner 1;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#int count_node_number 1;
+	}
+	@city
+	{
+		#string name "suck66";
+		#point pos 372.00, 41.00;
+		#int start_population 10;
+		#int level 1;
+		#int owner 1;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#int count_node_number 2;
+	}
+	@city
+	{
+		#string name "suck11";
+		#point pos -358.00, 40.00;
+		#int start_population 10;
+		#int level 1;
+		#int owner 1;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#int count_node_number 3;
+	}
+	@city
+	{
+		#string name "city_p0_s4_l1";
+		#point pos -360.00, -230.00;
+		#int start_population 10;
+		#int level 1;
+		#int owner 1;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#int count_node_number 4;
+	}
+	@city
+	{
+		#string name "city_p0_s4_l1";
+		#point pos 369.00, -251.00;
+		#int start_population 10;
+		#int level 1;
+		#int owner 1;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#bool strong_armies true;
+		#int count_node_number 5;
+	}
+	@city
+	{
+		#string name "castle_p0_s4_l1";
+		#point pos 7.00, 244.00;
+		#int start_population 50;
+		#int level 5;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#bool fortification true;
+		#int count_node_number 6;
+	}
+	@city
+	{
+		#string name "castle_p0_s4_l1";
+		#point pos 8.00, 12.00;
+		#int start_population 20;
+		#int level 2;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#bool strong_armies true;
+		#int count_node_number 7;
+	}
+	@city
+	{
+		#string name "castle_p0_s4_l1";
+		#point pos 11.00, -240.00;
+		#int start_population 50;
+		#int level 5;
+		#int owner 0;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#bool fortification true;
+		#int count_node_number 8;
+	}
+	@city
+	{
+		#string name "city_p0_s4_l1";
+		#point pos -143.00, 306.00;
+		#int start_population 10;
+		#int level 1;
+		#int owner 2;
+		#point tower_range 100.00, 100.00;
+		#int layer 0;
+		#int count_node_number 9;
+	}
+	@path_count_node
+	{
+		#int number 0;
+		#float radius 20.00;
+		#point point -358.00, 253.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 6;
+		#int edge 3;
+		#int edge 7;
+	}
+	@path_count_node
+	{
+		#int number 1;
+		#float radius 20.00;
+		#point point 379.00, 252.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 6;
+		#int edge 2;
+		#int edge 7;
+	}
+	@path_count_node
+	{
+		#int number 2;
+		#float radius 20.00;
+		#point point 372.00, 41.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 1;
+		#int edge 7;
+		#int edge 6;
+		#int edge 5;
+		#int edge 8;
+	}
+	@path_count_node
+	{
+		#int number 3;
+		#float radius 20.00;
+		#point point -358.00, 40.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 0;
+		#int edge 4;
+		#int edge 7;
+		#int edge 6;
+		#int edge 8;
+	}
+	@path_count_node
+	{
+		#int number 4;
+		#float radius 20.00;
+		#point point -360.00, -230.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 3;
+		#int edge 8;
+		#int edge 7;
+	}
+	@path_count_node
+	{
+		#int number 5;
+		#float radius 20.00;
+		#point point 369.00, -251.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 8;
+		#int edge 2;
+		#int edge 7;
+	}
+	@path_count_node
+	{
+		#int number 6;
+		#float radius 20.00;
+		#point point 7.00, 244.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 0;
+		#int edge 1;
+		#int edge 3;
+		#int edge 2;
+		#int edge 7;
+	}
+	@path_count_node
+	{
+		#int number 7;
+		#float radius 20.00;
+		#point point 8.00, 12.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 2;
+		#int edge 3;
+		#int edge 5;
+		#int edge 6;
+		#int edge 8;
+		#int edge 4;
+		#int edge 0;
+		#int edge 1;
+	}
+	@path_count_node
+	{
+		#int number 8;
+		#float radius 20.00;
+		#point point 11.00, -240.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+		#int edge 4;
+		#int edge 5;
+		#int edge 7;
+		#int edge 3;
+		#int edge 2;
+	}
+	@path_count_node
+	{
+		#int number 9;
+		#float radius 20.00;
+		#point point -143.00, 306.00;
+		#int layer 0;
+		#bool sanctuary false;
+		#bool invisible false;
+	}
+}
+>>
+

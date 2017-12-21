@@ -1,0 +1,374 @@
+<<
+
+@animationhost
+{
+	@animation
+	{
+		#string name "unit_anim";
+		#float animation_time 0.4;
+		#point frame_size 64, 64;
+	}
+	
+	@animation
+	{
+		#string name "unit_fast";
+		#int start_frame 0;
+		#int end_frame 7;
+		#float animation_time 0.5;	
+		#point delta_pos -8, -16;	
+		#point frame_size 48, 48;
+	}
+	
+	@animation
+	{
+		#string name "unit_other";
+		#int start_frame 0;
+		#int end_frame 7;
+		#float animation_time 0.5;
+		#point frame_size 32, 32;
+	}
+	
+	@animation
+	{
+		#string name "unit_other_flag";
+		#int start_frame 0;
+		#int end_frame 7;
+		#point delta_pos -4, -16;
+		#float animation_time 0.5;
+		#point frame_size 32, 48;
+	}
+	
+	@animation
+	{
+		#string name "tower_passive";
+		#int start_frame 8;
+		#int end_frame 15;
+		#float animation_time 1.0;		
+		#point frame_size 128, 128;
+		#string texname "magic_anim2";
+	}
+	
+	@animation
+	{
+		#string name "tower_active";
+		#int start_frame 16;
+		#int end_frame 23;
+		#float animation_time 1.0;		
+		#point frame_size 128, 128;
+		#string texname "magic_anim2";
+	}
+	
+	@animation
+	{
+		#string name "tower_shoot";
+		#int start_frame 24;
+		#int end_frame 25;
+		#float animation_time 0.3;		
+		#point frame_size 128, 128;
+		#string texname "magic_anim2";
+	}
+	@animation
+	{
+		#string name "dynamite_magic";
+		#int start_frame 0;
+		#int end_frame 11;
+		#float animation_time 1;
+		#bool glow true;
+		#point delta_pos 6, 32;
+		#point frame_size 128, 128;
+		#point frame_scale 1.5, 1.5;
+		#string texname "magic_anim0";
+	}
+	@animation
+	{
+		#string name "lightning_magic";
+		#int start_frame 12;
+		#int end_frame 19;
+		#float animation_time 1;		
+		#bool glow true;
+		#point delta_pos 0, 40;
+		#point frame_size 128, 128;
+		#point frame_scale 1.5, 1.5;
+		#string texname "magic_anim0";
+	}
+	@animation
+	{
+		#string name "invulnerability_magic";
+		#int start_frame 20;
+		#int end_frame 27;
+		#float animation_time 1;
+		#bool glow true;
+		#point delta_pos 0, 24;
+		#point frame_size 128, 128;
+		#point frame_scale 1.5, 1.5;
+		#string texname "magic_anim0";
+	}
+	@animation
+	{
+		#string name "capture_city";
+		#int start_frame 28;
+		#int end_frame 35;
+		#float animation_time 1;		
+		#point delta_pos -4, 42;
+		#point frame_size 128, 128;
+		#string texname "magic_anim0";
+	}
+	@animation
+	{
+		#string name "upgrade_city";
+		#int start_frame 36;
+		#int end_frame 43;
+		#float animation_time 1;		
+		#point delta_pos 0, 32;
+		#point frame_size 128, 128;
+		#point frame_scale 1, 1;
+		#string texname "magic_anim0";
+	}
+	@animation
+	{
+		#string name "shield_magic";
+		#int start_frame 44;
+		#int end_frame 51;
+		#float animation_time 1;
+		#bool glow true;
+		#point delta_pos 0, 12;
+		#point frame_size 128, 128;
+		#string texname "magic_anim0";
+	}
+	@animation
+	{
+		#string name "meteorfly_magic";
+		#int start_frame 52;
+		#int end_frame 55;
+		#float animation_time 0.5;
+		#bool glow true;
+		#point delta_pos 0, 0;
+		#point frame_size 128, 128;
+		#string texname "magic_anim0";
+	}
+	@animation
+	{
+		#string name "meteorexp_magic";
+		#int start_frame 56;
+		#int end_frame 63;
+		#float animation_time 1;
+		#point frame_scale 2, 2;
+		#point delta_pos -10, 50;
+		#point frame_size 128, 128;
+		#string texname "magic_anim0";
+	}
+	
+	@animation
+	{
+		#string name "blizzard_magic";
+		#int start_frame 0;
+		#int end_frame 7;
+		#float animation_time 1;		
+		#point delta_pos 0, 48;
+		#point frame_size 128, 128;
+		#string texname "magic_anim1";
+	}
+	@animation
+	{
+		#string name "poison_magic";
+		#int start_frame 8;
+		#int end_frame 15;
+		#float animation_time 1;		
+		#point delta_pos 0, 16;
+		#point frame_size 128, 128;
+		#string texname "magic_anim1";
+	}
+	@animation
+	{
+		#string name "bless_magic";
+		#int start_frame 16;
+		#int end_frame 23;
+		#float animation_time 1;		
+		#point delta_pos 0, 32;
+		#point frame_size 128, 128;
+		#string texname "magic_anim1";
+	}
+	@animation
+	{
+		#string name "truce_magic";
+		#int start_frame 24;
+		#int end_frame 31;
+		#float animation_time 1;		
+		#point delta_pos 0, 40;
+		#point frame_size 128, 128;
+		#string texname "magic_anim1";
+	}
+	
+	
+	@animation
+	{
+		#string name "indoctrinate_magic";
+		#int start_frame 32;
+		#int end_frame 39;
+		#float animation_time 1;		
+		#point delta_pos 0, 32;
+		#point frame_size 128, 128;
+		#string texname "magic_anim1";
+	}
+	@animation
+	{
+		#string name "turncoat_magic";
+		#int start_frame 40;
+		#int end_frame 47;
+		#float animation_time 1;		
+		#point delta_pos -8, 40;
+		#point frame_size 128, 128;
+		#string texname "magic_anim1";
+	}
+	@animation
+	{
+		#string name "overpop_magic";
+		#int start_frame 48;
+		#int end_frame 55;
+		#float animation_time 1;		
+		#point delta_pos 0, 64;
+		#point frame_size 128, 128;
+		#string texname "magic_anim1";
+	}
+	@animation
+	{
+		#string name "good_dna_magic";
+		#int start_frame 56;
+		#int end_frame 63;
+		#float animation_time 1;		
+		#point delta_pos 0, 32;
+		#point frame_size 128, 128;
+		#string texname "magic_anim1";
+	}
+	@animation
+	{
+		#string name "bad_dna_magic";
+		#int start_frame 0;
+		#int end_frame 7;
+		#float animation_time 1;		
+		#point delta_pos 0, 32;
+		#point frame_size 128, 128;
+		#string texname "magic_anim2";
+	}
+	@animation
+	{
+		#string name "tower_passive_evil";
+		#int start_frame 26;
+		#int end_frame 33;
+		#float animation_time 1.0;		
+		#point frame_size 128, 128;
+		#string texname "magic_anim2";
+	}
+	
+	@animation
+	{
+		#string name "tower_active_evil";
+		#int start_frame 34;
+		#int end_frame 41;
+		#float animation_time 1.0;		
+		#point frame_size 128, 128;
+		#string texname "magic_anim2";
+	}
+	
+	@animation
+	{
+		#string name "tower_shoot_evil";
+		#int start_frame 42;
+		#int end_frame 43;
+		#float animation_time 0.3;		
+		#point frame_size 128, 128;
+		#string texname "magic_anim2";
+	}
+	
+	@animation
+	{
+		#string name "city_selector";
+		#int start_frame 44;
+		#int end_frame 51;
+		#float animation_time 1.0;		
+		#point frame_size 128, 128;
+		#string texname "magic_anim2";
+	}
+	
+	@animation
+	{
+		#string name "tornado_magic";
+		#int start_frame 52;
+		#int end_frame 63;
+		#float animation_time 1.5;		
+		#point delta_pos 0, 32;
+		#point frame_size 128, 128;
+		#string texname "magic_anim2";
+	}
+	
+	@animation
+	{
+		#string name "upgrade_timer";
+		#int start_frame 0;
+		#int end_frame 8;
+		#float animation_time 3;		
+		#point delta_pos 0, 0;
+		#point frame_size 32, 32;
+		#string texname "upgrade_timer";
+	}
+	
+	@animation
+	{
+		#string name "invisibility_magic";
+		#int start_frame 0;
+		#int end_frame 7;
+		#float animation_time 1;
+		#point delta_pos 0, 20;
+		#point frame_size 128, 128;
+		#string texname "magic_anim3";
+	}
+	
+	@animation
+	{
+		#string name "haste_magic";
+		#int start_frame 8;
+		#int end_frame 15;
+		#float animation_time 1;
+		#point delta_pos 0, 0;
+		#point frame_size 128, 128;
+		#string texname "magic_anim3";
+	}
+	
+	@animation
+	{
+		#string name "slow_magic";
+		#int start_frame 16;
+		#int end_frame 23;
+		#float animation_time 1;
+		#point delta_pos 0, 0;
+		#point frame_size 128, 128;
+		#string texname "magic_anim3";
+	}
+	
+	@animation
+	{
+		#string name "fireworks_anim";
+		#int start_frame 24;
+		#int end_frame 31;
+		#float animation_time 0.5;
+		#point delta_pos 0, 128;
+		#point frame_size 128, 128;
+		#string texname "magic_anim3";
+	}
+
+	@animation
+	{
+		#string name "fire_anim";
+		#int start_frame 0;
+		#int end_frame 21;
+		#bool randomize true;
+		#bool smooth true;
+		#float animation_time 1;
+		#float scale_factor 5;
+		#point frame_size 45, 128;
+		#string texname "fire";
+	}
+}
+
+>>
+

@@ -1,0 +1,83 @@
+<<
+
+@eng
+{
+	^	
+
+	REVERSE ENGINEER
+	VELOCITY
+
+	_Game Design
+	Sergey Smirnov
+	Oleg Dolgikh
+	Vitaliy Moskalyuk
+
+	_Producers
+	Alexey Serebrov
+	Vitaliy Romanov
+
+	_Programmers
+	Oleg Dolgikh 
+	Sergey Smirnov
+
+	_Level Design
+	Vitaliy Moskalyuk
+	Oleg Dolgikh
+	Sergey Smirnov
+
+	_Leading Artist
+	Yaroslav Abramov
+
+	_Artists
+	Ksenia Mamaeva
+	Ekaterina Okhotnikova
+	Alexey Zhizhitsa
+	Natalya Filinova
+	Yuri Voronov
+
+	_3D Animation
+	Alexander Bessarabov
+	Alexander Koval
+	Yaroslav Abramov
+
+	_Music and Sound effects
+	The SandS
+
+	_Voiceover
+	Tim Simmons
+
+	_Testers
+	Vitaliy Romanov
+	Alexey Serebrov
+	Sergey Korshun
+	Andrey Litvinov
+	Christopher Hamilton
+	Tim Simmons
+
+	_English Localization
+	Irina Derkacheva
+	Christopher Hamilton
+	Tim Simmons
+
+	_Special Thanks
+	Sergey Korshun
+	Anastasia Limanskaya
+	Vitaliy Romanov
+	Alexey Serebrov
+	Andrey Litvinov
+	Lia Zaripova
+
+
+	_
+	_
+	+
+	
+	^
+	_
+	_
+	_		
+
+	_ Copyright c 2011 NevoSoft. All rights reserved.
+}
+
+>>

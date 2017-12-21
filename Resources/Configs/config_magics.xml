@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 3.4.10.1
+- http://www.phpmyadmin.net
+-
+- 主机: localhost
+- 生成日期: 2012 年 09 月 06 日 19:55
+- 服务器版本: 5.0.77
+- PHP 版本: 5.2.14
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="hurrygames" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="config_magics">
+                CREATE TABLE `config_magics` (
+                  `id` int(11) NOT NULL,
+                  `name` varchar(255) NOT NULL,
+                  `fireKey` int(11) NOT NULL,
+                  `openLevel` int(11) NOT NULL,
+                  `desc` varchar(255) NOT NULL,
+                  `needDiamond` varchar(255) NOT NULL,
+                  `cd` int(11) NOT NULL,
+                  `image` int(255) NOT NULL
+                ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - 数据库: 'hurrygames'
+    -->
+    <database name="hurrygames">
+        <!-- 表 config_magics -->
+        <table name="config_magics">
+            <column name="id">1</column>
+            <column name="name">休战</column>
+            <column name="fireKey">1</column>
+            <column name="openLevel">1</column>
+            <column name="desc">敌人不会攻击你的建筑，持续1分钟。休战状态会在任何侵略行为下中止。</column>
+            <column name="needDiamond">19</column>
+            <column name="cd">300</column>
+            <column name="image">0</column>
+        </table>
+        <table name="config_magics">
+            <column name="id">2</column>
+            <column name="name">减速</column>
+            <column name="fireKey">2</column>
+            <column name="openLevel">1</column>
+            <column name="desc">敌方所有军队行进速度会减缓2倍，持续30秒。</column>
+            <column name="needDiamond">32</column>
+            <column name="cd">60</column>
+            <column name="image">0</column>
+        </table>
+        <table name="config_magics">
+            <column name="id">3</column>
+            <column name="name">加速</column>
+            <column name="fireKey">3</column>
+            <column name="openLevel">3</column>
+            <column name="desc">己方所有部队行进速度加快2倍，持续30秒。</column>
+            <column name="needDiamond">36</column>
+            <column name="cd">60</column>
+            <column name="image">0</column>
+        </table>
+        <table name="config_magics">
+            <column name="id">4</column>
+            <column name="name">护盾</column>
+            <column name="fireKey">4</column>
+            <column name="openLevel">3</column>
+            <column name="desc">己方所有建筑的防御力加倍，持续30秒。</column>
+            <column name="needDiamond">42</column>
+            <column name="cd">60</column>
+            <column name="image">0</column>
+        </table>
+        <table name="config_magics">
+            <column name="id">6</column>
+            <column name="name">流星暴</column>
+            <column name="fireKey">6</column>
+            <column name="openLevel">5</column>
+            <column name="desc">所有在陨石坠落点辐射范围内的部队都将被摧毁，即使他们躲在建筑内也于事无补！立刻起效。</column>
+            <column name="needDiamond">59</column>
+            <column name="cd">30</column>
+            <column name="image">0</column>
+        </table>
+    </database>
+</pma_xml_export>

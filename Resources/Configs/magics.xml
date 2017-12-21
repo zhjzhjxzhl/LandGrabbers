@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<magics>
+	<magic id="1" name="休战" fireKey="1" openLevel="1" desc="敌人不会攻击你的建筑，持续1分钟。休战状态会在任何侵略行为下中止。" needDiamond="5分钟"/>
+	<magic id="2" name="减速" fireKey="2" openLevel="1" desc="敌方所有军队行进速度会减缓2倍，持续30秒。" needDiamond="2分钟"/>
+	<magic id="3" name="加速" openLevel="5" desc="己方所有部队行进速度加快2倍，持续30秒。" needDiamond="2分钟"/>
+	<magic id="4" name="龙卷风" openLevel="3" desc="范围内的暴露在建筑外的部队会被卷出屏幕，立刻起效。" needDiamond="1分钟"/>
+	<magic id="5" name="护盾" openLevel="8" desc="己方所有建筑的防御力加倍，持续1分钟" needDiamond="5分钟"/>
+	<magic id="6" name="雷神之怒" openLevel="10" desc="放出一道闪电，被选中建筑中的部队将被摧毁（瞭望塔则摧毁一半的部队）"/>
+	<magic id="7" name="内部分裂" openLevel="12" desc="一个可攻击到的敌方建筑将被你控制；同时建筑内的兵力将减半，防御塔则清零。立刻起效"/>
+	<magic id="8" name="毁灭打击" openLevel="18" desc="被选中建筑将被退回到第一级"/>
+	<magic id="9" name="卖萌专用" openLevel="9" desc="你是个棒小伙，但这魔法其实是卖萌的！？（效果：播放全服广播：xxxx又来卖萌啦，提高一下全服知名度O(∩_∩)O哈！）" cd="1"/>
+	<magic id="10" name="隐形" openLevel="15" desc="己方部队对敌塔隐形，持续1分钟"/>
+	<magic id="11" name="贿赂" openLevel="25" desc="被选中部队将转变为你的部队"/>
+	<magic id="12" name="封锁" openLevel="28" desc="被选中建筑被封锁；这将导致部队无法进入（原路返回）或离开,包括自己的部队。持续1分钟。"/>
+	<magic id="13" name="瘟疫" openLevel="20" desc="敌方所有建筑的人口将被减半，立刻起效，在一场战斗中你只能使用一次这个魔法！" cd="69" needDiamond="一场战斗结束"/>
+	<magic id="14" name="流星暴" openLevel="32" desc="所有在陨石坠落点辐射范围内的部队都将被摧毁，即使他们躲在建筑内也于事无补！立刻起效。"/>
+	<magic id="15" name="冰封" openLevel="40" desc="被选中建筑将被冰封:   瞭望塔不能射击，部队人数无法增长，也不能被攻击和通过，持续2分钟"/>
+	<magic id="16" name="战争号角" openLevel="45" desc="被选中部队的攻击力翻倍，持续30秒"/>
+	<magic id="17" name="疯狂生长" openLevel="48" desc="己方建筑的部队增长速度加倍，持续30秒"/>
+	<magic id="18" name="诅咒" openLevel="50" desc="敌方部队将无法增长，持续30秒"/>
+	<magic id="19" name="地震" openLevel="60" desc="所有敌方建筑将被降一级，立刻起效"/>
+	<magic id="20" name="破表了" openLevel="68" desc="被选中建筑的部队将没有人员伤亡的无限增长，直到战斗结束" cd="79"/>
+</magics>
